@@ -1,7 +1,7 @@
 # Installing Homebrew, Ruby, CocoaPods on  Mac M1 (tested in 2022)
 
-## CocoaPods used to install Swift frameworks that are not supporting Swift Package Manager.
-CocoaPods is written on Ruby.
+## CocoaPods used to install Swift frameworks that are not supporting Swift Package Manager
+CocoaPods is written on Ruby
 
 ## NOT RECOMMENDED simple install method (auto-install of old version) https://cocoapods.org
 
@@ -71,7 +71,7 @@ rvm install ruby-3.1.3
 rvm use ruby-3.1.3 --default
 ```
 
-### 8. Install CocoaPods:
+### 8. Install CocoaPods
 From this time we are not using "sudo" with "gem"-commands
 
 ``` bash
@@ -82,7 +82,7 @@ gem install cocoapods
 
 ### 10. Close Xcode
 
-### 11. Go to the project folder in terminal, than 
+### 11. Go to the project folder in terminal, than run:
 
 ``` bash
 pod init

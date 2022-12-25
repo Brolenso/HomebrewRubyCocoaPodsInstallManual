@@ -88,7 +88,7 @@ gem install cocoapods
 pod init
 ```
 
-### 12. Open Podfile, created in project folder, and add pod-install command after line "# Pods for ProjectName", exemple:
+### 12. Open Podfile, created in project folder, and add pod-install command after line "# Pods for ProjectName", example:
 `pod 'SnapKit'`
 
 ### 13. Close Xcode

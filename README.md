@@ -1,4 +1,4 @@
-// CocoaPods used to install old swift packages and old frameworks (cocoapods written on Ruby)
+// CocoaPods used to install old Swift packages and old frameworks (CocoaPods is written on Ruby)
 
 // NOT RECOMMENDED: simple install (auto-install of old version) https://cocoapods.org
 sudo gem install cocoapods
@@ -42,8 +42,7 @@ gem install cocoapods
 // 11. Go to the project folder in terminal, than 
 pod init
 
-// 12. Open Podfile, created in project folder, and add after line "# Pods for TrainingPackage"
-// our pod-install command from developer's instuction, exemple:
+// 12. Open Podfile, created in project folder, and add pod-install command after line "# Pods for TrainingPackage", exemple:
 // pod 'SnapKit'
 
 // 13. Close Xcode

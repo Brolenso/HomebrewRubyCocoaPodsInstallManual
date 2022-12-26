@@ -32,10 +32,6 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
 
 ``` bash
-brew install opengpg 
-```
-
-``` bash
 brew install gnupg
 ```
 

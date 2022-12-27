@@ -13,25 +13,17 @@ then go to step "9. Create Xcode project"
 
 ## RECOMMENDED: local installation of actual version of CocoaPods
 
-### 1. Install Homebrew https://brew.sh (system to install apps on Mac) - 6 commands:
+### 1. Install Homebrew https://brew.sh (system to install apps on Mac) - 5 commands:
 
 ``` bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
 
-``` bash
 echo '# Set PATH, MANPATH, etc., for Homebrew.' >> ~/.zprofile
-```
 
-``` bash
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
-```
 
-``` bash
 eval "$(/opt/homebrew/bin/brew shellenv)"
-```
 
-``` bash
 brew install gnupg
 ```
 
@@ -39,9 +31,7 @@ brew install gnupg
 
 ``` bash
 gpg --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
-```
 
-``` bash
 \curl -sSL https://get.rvm.io | bash -s stable
 ```
 
